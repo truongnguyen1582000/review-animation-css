@@ -80,7 +80,7 @@
 /* --------------------- */
 
 .container {
-  width: 1200px;
+  width: 1280px;
   margin: 80px auto;
 }
 
@@ -184,6 +184,7 @@
 .product2 {
   width: 300px;
   height: 430px;
+  display: inline-block;
 }
 
 .product2__img-with-btn {
@@ -257,14 +258,14 @@
   position: absolute;
   top: 0;
   color: grey;
-  transition: 1s;
+  transition: 0.4s;
 }
 
 .product2__icon {
   position: absolute;
   top: 20px;
   opacity: 0;
-  transition: 1s;
+  transition: 0.4s;
 }
 
 .product2:hover .product2__price {
